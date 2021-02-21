@@ -7,7 +7,7 @@
 
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
   <!-- <link rel="stylesheet" href="reset.css"> -->
-  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <link rel="stylesheet" href="styles.css">
   <!-- <link rel="stylesheet" href="bootstrap.css"> -->
     <link rel="stylesheet" href="bootstrap.min.css">
 
@@ -49,10 +49,10 @@
               <li class="dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Max Temperature</a></li>
-                  <li><a href="#">Humidity</a></li>
-                  <li><a href="#">Wind Speed</a></li>
-                  <li><a href="#">Cloudiness</a></li>
+                  <li><a href="visualizations/temp.html">Max Temperature</a></li>
+                  <li><a href="visualizations/humidity.html">Humidity</a></li>
+                  <li><a href="visualizations/wind.html">Wind Speed</a></li>
+                  <li><a href="visualizations/cloudiness.html">Cloudiness</a></li>
                 </ul>
               </li>
               <li>
@@ -79,8 +79,36 @@
     </header>
     <main>
     
+          <img src="Resources/images/Fig1.png" alt="" id="description-image"/>
+          <p></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Visualizations</h2>
+
+          <div class="row">
+            <div class="col-md-6">
+              <a href="visualizations/temp.html">
+                <img src="Resources/images/Fig1.png" alt="Latitude vs. Max Temperature" class="imageNav-photo"></a>
+            </div>
+            <div class="col-md-6">
+              <a href="visualizations/humidity.html"><img src="Resources/images/Fig2.png" alt="Latitude vs. Humidity" class="imageNav-photo"></a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <a href="visualizations/cloudiness.html"><img src="Resources/images/Fig3.png" alt="Latitude vs. Cloudiness" class="imageNav-photo"></a>
+            </div>
+            <div class="col-md-6">
+              <a href="visualizations/wind.html"><img src="Resources/images/Fig4.png" alt="Latitude vs. Wind Speed" class="imageNav-photo"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <img src="assets/images/Fig1.png" alt="" id="description-image"/>
+
 </body>
 
 </html>
