@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lattitude</title>
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <link rel="stylesheet" href="bootstrap.css"> -->
+    <link rel="stylesheet" href="bootstrap.min.css" />
+  </head>
+
+  <body>
+    <!-- <div class="container"> -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <!-- <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"> -->
+
+      <!-- </button> -->
+      <!-- <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li> -->
+      <div class="container-fluid" id="navbarColor02">
+        <div class="row">
+          <div class="navbar-header">
+            <!-- <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1"
+              aria-expanded="false"
+            > -->
+              <span class="sr-only">Toggle Navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="col-xs-9 phone-nav">
+              <a class="navbar-brand" href="#" id="logo">Latitude</a>
+            </div>
+          </div>
+
+          <!-- <div class="navbar-header"> -->
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right navbar-right-custom">
+              <li class="dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Plots <span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="temp.html">Max Temperature</a>
+                  </li>
+                  <li><a href="humidity.html">Humidity</a></li>
+                  <li><a href="wind.html">Wind Speed</a></li>
+                  <li>
+                    <a href="cloudiness.html">Cloudiness</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="cities_index1.html">Data</a>
+              </li>
+              <li>
+                <a href="">Comparison</a>
+              </li>
+            </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search">
+              <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+              </form> -->
+          </div>
+        </div>
+        <!--END ROW-->
+      </div>
+      <!--END FLUID CONTAINER-->
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <header class="header">
+            <h1 class="description-header">Summary: Lattitude vs. Cloudiness</h1>
+            <hr class="description-hr" />
+          </header>
+
+          <img src="Resources/images/Fig3.png" alt="" id="description-image" />
+          <p></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Visualizations</h2>
+
+          <div class="row">
+            <div class="col-md-6">
+              <a href="temp.html">
+                <img
+                  src="Resources/images/Fig1.png"
+                  alt="Latitude vs. Max Temperature"
+                  class="imageNav-photo"
+              /></a>
+            </div>
+            <div class="col-md-6">
+              <a href="humidity.html"
+                ><img
+                  src="Resources/images/Fig2.png"
+                  alt="Latitude vs. Humidity"
+                  class="imageNav-photo"
+              /></a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <a href="cloudiness.html"
+                ><img
+                  src="Resources/images/Fig3.png"
+                  alt="Latitude vs. Cloudiness"
+                  class="imageNav-photo"
+              /></a>
+            </div>
+            <div class="col-md-6">
+              <a href="wind.html"
+                ><img
+                  src="Resources/images/Fig4.png"
+                  alt="Latitude vs. Wind Speed"
+                  class="imageNav-photo"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-2.1.4.min.js"
+    ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+</html>
